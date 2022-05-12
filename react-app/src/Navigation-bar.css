@@ -1,0 +1,22 @@
+.navbar{
+    text-align:center;
+}
+
+.second-col, .first-col, .third-col {
+    height: 33px;
+}
+.second-col, .third-col{
+    margin-bottom:0px;
+}
+.prof-Link, .option-Link, .home-Link{
+    height: 30px;
+
+}
+.prof-Link, .option-Link{
+    padding-top:8px;
+}
+
+.Link-decoration{
+    text-decoration: none;
+
+}
