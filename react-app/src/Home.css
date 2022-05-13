@@ -1,0 +1,14 @@
+.gym-img-background{
+    width: 100%;
+    background-attachment: fixed;
+}
+.ciao{
+    position: relative;
+    top:10px;
+    height: 100px;
+    background-color: transparent;
+}
+.home{
+    background-image:url('./img/gym_training.jpg');
+    height: 200px;
+}

@@ -1,4 +1,4 @@
-import './App.css';
+import './Option.css';
 import React from 'react';
 import penguin from './img/penguin.png';
 
