@@ -1,0 +1,12 @@
+.card{
+    max-height: 500px;
+    width: 20rem;
+}
+.card-container{
+    position: relative;
+    top:10px;
+    height: 100px;
+    padding-top: 430px;
+    padding-left: 20px;
+    background-color: transparent;
+}

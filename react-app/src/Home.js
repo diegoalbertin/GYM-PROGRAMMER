@@ -1,7 +1,8 @@
 import './Home.css';
 import React from 'react';
-import { Carousel, Card, Button } from 'react-bootstrap';
+import { Row, Carousel, Col, Card, Button } from 'react-bootstrap';
 import gym_training from './img/gym_training.jpg';
+import ItemCard from './card';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function HomePage(props) {
@@ -47,21 +48,24 @@ function HomePage(props) {
   </Carousel.Item>
 </Carousel>
        </div>
-       <div className='ciao col-sm-4 col-md-4 col-lg-4'>
-       <Card className='card1'>
-        <Card.Img variant="top" src={gym_training} alt='problem' />
-        <Card.Body>
-          <Card.Title>Card Title</Card.Title>
-          <Card.Text>
-          ciaoooo
-          </Card.Text>
-          <Button variant="primary">Go somewhere</Button>
-        </Card.Body>
-      </Card>
+
+        <div className='container-Card'>
+
         </div>
+        <Row>
+          <Col md={4}>
+          <ItemCard src='./img/cbum.jpg' title='CBUM uno di noi' text='anche chris usa GYM-PROGRAMMER'/>
+
+          </Col>
+          <Col md={4}>
+          <ItemCard src='./img/cbum.jpg' title='CBUM uno di noi' text='anche chris usa GYM-PROGRAMMER'/>
+          </Col>
+        </Row>
     </div>
     </>
   )
 }
 
 export default HomePage;
+
+//le card si allineano in maniera sbagliata
