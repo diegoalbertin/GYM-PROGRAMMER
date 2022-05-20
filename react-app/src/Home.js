@@ -4,6 +4,9 @@ import { Row, Carousel, Col, Card, Button } from 'react-bootstrap';
 import gym_training from './img/gym_training.jpg';
 import ItemCard from './card';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import cbum from './img/cbum.jpg';
+import ronnie from './img/ronnie.jpg';
+
 
 function HomePage(props) {
   return (
@@ -54,11 +57,13 @@ function HomePage(props) {
         </div>
         <Row>
           <Col md={4}>
-          <ItemCard src='./img/cbum.jpg' title='CBUM uno di noi' text='anche chris usa GYM-PROGRAMMER'/>
+          <ItemCard src={cbum} title='CBUM uno di noi' text='anche chris usa GYM-PROGRAMMER'/>
 
           </Col>
           <Col md={4}>
-          <ItemCard src='./img/cbum.jpg' title='CBUM uno di noi' text='anche chris usa GYM-PROGRAMMER'/>
+          <ItemCard src={ronnie} title='RONNIE uno di noi' text={'anche ronnie usa GYM-PROGRAMMER'}/>
+          </Col>
+          <Col md={4}>
           </Col>
         </Row>
     </div>
